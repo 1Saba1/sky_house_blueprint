@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+.head{
+	display: flex;;
+	height: 1000px;
+}
+.main-code{
+	display: flex;
+	width: 2000px;
+	height: 400px;
+	background-color: #000CFF;
+	color: #FFFFFF;
+	padding: 2px;
+}
+.images{
+ border: #000CFF;
+ margin-left: 100px;
+ margin-top: 300px;
+}
+.zoom {
+ width: 300px;
+ height: 300px;
+ transition: transform .2s;
+ margin: 0 auto;
+}
+.zoom:hover {
+ -ms-transform: scale(1.5); 
+ -webkit-transform: scale(1.5); 
+ transform: scale(1.5); 
+}
+.text{
+ position:absolute;
+ width: 100px;
+ top: 200px;
+ left: 100px;
+ height: 40px;
+ border-radius: 15px;
+ background-color:#FFFFFF ;
+}
